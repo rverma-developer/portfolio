@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>My portfolio</title>
+<style>
+body{
+background:#c0c0c0;
+color:white;
+font-family:monotype corsiva;
+}
+*{
+margin:0;
+padding:0;
+}
+nav{
+display:flex;
+justify-content:space-around;
+align-items:center;
+height:60px;
+background:#e8e8ff;
+}
+nav ul{
+display:flex;
+justify-content:center;
+}
+nav ul li{
+list-style:none;
+margin:0 22px;
+color:black;
+}
+nav ul li a{
+text-decoration:none;
+color:black;
+}
+nav ul li a:hover{
+color:blue;
+font-size:1.04rem;
+}
+.firstsection{
+display:flex;
+justify-content:space-around;
+margin:70px 0;
+}
+.leftsection{
+font-size:2.5rem;
+margin-top:70px;
+}
+.firstsection > div{
+width:40%;
+}
+.rightsection img{
+width:30%;
+}
+#element{
+color:purple;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="left" style="color:black;font-size:2rem;">My portfolio</div>
+<div class="right">
+<ul>
+<li><a href="index.html">Home</a></li>  
+<li><a href="about.html">About us</a></li>
+<li><a href="contact.html">Contact us </a></li>
+<li><a href="project.html">Projects </a></li>
+<li><a href="service.html">Services</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<main>
+<section class="firstsection">
+<div class="leftsection">
+Hi,My name is <span style="color:purple;font-weight:bold;">Ruchi verma</span>
+<div>and I am a passionate</div>
+  <span id="element"></span>
+<div class="button" style="padding:20px 0;">
+<a href="file:///C:/Users/ruchi/OneDrive/Desktop/resume.pdf" target="_blank">
+<button style="background:purple;color:white;border:2px solid white;font-size:18px;border-radius:3px;">Download Resume</button></a>
+<a href="https://github.com/rverma-developer" target="_blank">
+<button style="background:purple;color:white;border:2px solid white;font-size:18px;border-radius:3px;">Visit Github</button></a>
+<a href="contact.html">
+<button style="background:purple;color:white;border:2px solid white;font-size:18px;border-radius:3px;">Contact me</button></a>
+
+</div>
+</div>
+<div class="rightsection">
+<img src="1.png" style="width:90%;margin:3px 40px;"/>
+</div>
+</section>
+
+<div  style="text-align:center;padding:12px 0;color:black;">
+Copyright &copy; www.Ruchi verma 's Portfolio.com| All rights reserverd
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Graphic Designer','Web designer','Tester'],
+      typeSpeed: 50,
+    });
+  </script>
+<body>
+</html>
